@@ -1,0 +1,38 @@
+﻿Build started 28/01/2016 09:17:29.
+     1>Project "C:\Users\lab422\Desktop\Hackathon-master\Platformer\Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I./ /IC:\SDL\include /I"C:\SDL2_mixer-2.0.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\lab422\desktop\hackathon-master\platformer\render.h(112): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\render.h(113): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\render.h(114): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\render.h(115): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(106): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(121): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(151): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(160): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'void *'
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(248): warning C4553: '==': operator has no effect; did you intend '='?
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(280): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(283): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(286): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(333): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(340): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\lab422\desktop\hackathon-master\platformer\game.cpp(342): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lab422\Desktop\Hackathon-master\Debug\Platformer.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib /LIBPATH:C:\SDL\lib\win32 /LIBPATH:"C:\SDL2_mixer-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_Mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\lab422\Desktop\Hackathon-master\Debug\Platformer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lab422\Desktop\Hackathon-master\Debug\Platformer.lib" /MACHINE:X86 Debug\Button.obj
+         Debug\Cannon.obj
+         Debug\Door.obj
+         Debug\Fireball.obj
+         Debug\Game.obj
+         Debug\InputHandler.obj
+         Debug\Level.obj
+         Debug\MenuScene.obj
+         Debug\Platform.obj
+         Debug\Player.obj
+         lib\Box2D.lib
+         Platformer.vcxproj -> C:\Users\lab422\Desktop\Hackathon-master\Debug\Platformer.exe
+     1>Done Building Project "C:\Users\lab422\Desktop\Hackathon-master\Platformer\Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.09
